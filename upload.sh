@@ -10,8 +10,8 @@ if [ "$ConflicCount" -gt 0 ] ; then
    exit 1
 fi
 
-Repo="DUSpecs"
-RepoList=("DUSpecs" "DUSpecs_test" "DUSpecs_gray")
+Repo="MYLPOD"
+RepoList=("MYLPOD" "DUSpecs_test" "DUSpecs_gray")
 getRepo() {
     echo -e "\n"
     length=${#RepoList[@]}
@@ -59,7 +59,7 @@ GrayVersionString=`grep -E 'version.gray.*=' A_MYL.podspec`
 GrayVersionNumber=`tr -cd 0-9 <<<"$GrayVersionString"`
 NewGrayVersionNumber=$GrayVersionNumber
 
-if [ "$Repo" == "DUSpecs" ]; then
+if [ "$Repo" == "MYLPOD" ]; then
   NewDevelopVersionNumber=$(($DevelopVersionNumber + 1))
   NewTestVersionNumber=0
   NewGrayVersionNumber=0
