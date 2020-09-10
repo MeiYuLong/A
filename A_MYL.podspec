@@ -6,7 +6,7 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-# version.develop = 7
+# version.develop = 8
 # version.test = 0
 # version.gray = 0
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "A_MYL"
-  s.version      = "7.0.0"
+  s.version      = "8.0.0"
   s.swift_version = '5.1'
   s.summary      = "A_MYL."
 
@@ -138,6 +138,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "CTMediator"
+  s.dependency "CTMediator"
 
 end
