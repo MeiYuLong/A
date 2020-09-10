@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		460A6D0B250A1704006A63FA /* CTMediator+A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460A6D0A250A1704006A63FA /* CTMediator+A.swift */; };
 		4636E8E62508C82D00F5ED6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4636E8E52508C82D00F5ED6E /* AppDelegate.swift */; };
 		4636E8E82508C82D00F5ED6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4636E8E72508C82D00F5ED6E /* SceneDelegate.swift */; };
 		4636E8EA2508C82D00F5ED6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4636E8E92508C82D00F5ED6E /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		150CC94580D800C8EFD82232 /* A_MYL_Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = A_MYL_Extension.swift; path = Extension/A_MYL_Extension.swift; sourceTree = "<group>"; };
+		460A6D0A250A1704006A63FA /* CTMediator+A.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CTMediator+A.swift"; sourceTree = "<group>"; };
 		4636E8E22508C82D00F5ED6E /* A_MYL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A_MYL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4636E8E52508C82D00F5ED6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4636E8E72508C82D00F5ED6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,15 @@
 			name = Target;
 			sourceTree = "<group>";
 		};
+		460A6D09250A16F0006A63FA /* CTMeditaor+A */ = {
+			isa = PBXGroup;
+			children = (
+				460A6D0A250A1704006A63FA /* CTMediator+A.swift */,
+			);
+			name = "CTMeditaor+A";
+			path = "Source/CTMeditaor+A";
+			sourceTree = "<group>";
+		};
 		4636E8D92508C82D00F5ED6E = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +196,7 @@
 		A57ACD73C8872F83D79D4615 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				460A6D09250A16F0006A63FA /* CTMeditaor+A */,
 				459F19BA87B726DC3A6791DC /* Target */,
 				E0CD3530B9F9C340E1D30410 /* DemoViewController.swift */,
 				4636E9152508C91200F5ED6E /* AViewController.swift */,
@@ -372,6 +384,7 @@
 				4636E8E82508C82D00F5ED6E /* SceneDelegate.swift in Sources */,
 				D244114241A9CEF90C3239F1 /* Target_A_MYL.swift in Sources */,
 				D2E5B99389E565A43AF2BE04 /* DemoViewController.swift in Sources */,
+				460A6D0B250A1704006A63FA /* CTMediator+A.swift in Sources */,
 				4636E9162508C91200F5ED6E /* AViewController.swift in Sources */,
 				F1B6512D3E30D911CD3B4F3E /* A_MYL_Extension.swift in Sources */,
 			);
