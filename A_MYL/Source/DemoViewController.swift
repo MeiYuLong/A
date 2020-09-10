@@ -16,7 +16,7 @@ class DemoViewController: UIViewController {
         label.backgroundColor = .yellow
         label.textColor = .systemPink
         label.textAlignment = .center
-        label.frame = CGRect.init(x: 20, y: 20, width: 350, height: 50)
+        label.frame = CGRect.init(x: 20, y: 100, width: 350, height: 50)
         return label
     }()
     
