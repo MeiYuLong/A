@@ -10,17 +10,29 @@ import UIKit
 
 class AViewController: UIViewController {
 
+    lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.text = "组件A——AViewController"
+        label.font = UIFont.systemFont(ofSize: 15)
+        label.backgroundColor = .yellow
+        label.textColor = .systemPink
+        label.textAlignment = .center
+        label.frame = CGRect.init(x: 20, y: 20, width: 350, height: 50)
+        return label
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.view.backgroundColor = .red
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .blue
+        
+        self.navigationItem.title = "组件A——AViewController"
+        self.view.addSubview(titleLabel)
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        let alert = UIAlertController.init(title: "Hi", message: "我是组件A", preferredStyle: .alert)
+        let alert = UIAlertController.init(title: "Hi", message: "我是组件A_AViewController", preferredStyle: .alert)
         
         let action = UIAlertAction.init(title: "OK", style: .default) { (action) in
             self.view.backgroundColor = .yellow

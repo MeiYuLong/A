@@ -33,6 +33,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 debugPrint(responseString)
             }
             print(result as Any)
+            if let vc = result {
+                self.present(vc, animated: true, completion: nil)
+            }
         }
     }
 
